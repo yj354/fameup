@@ -7,7 +7,7 @@ import android.view.View.OnClickListener;
 import android.widget.EditText;
 import android.widget.TimePicker;
 
-import com.xtremelabs.socialalarm.util.AlarmUtil;
+import io.yuji.fameup.util.AlarmUtil;
 
 public class AlarmEditorActivity extends Activity {
     
