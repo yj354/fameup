@@ -22,6 +22,18 @@
             android:text="@string/choose_ringtone" />
     </LinearLayout>
 
+<!--     <DigitalClock
+        android:id="@+id/digital_clock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DigitalClock" /> -->
+
+    <TextView
+        android:id="@+id/current_time_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+    
     <ListView
         android:id="@+id/alarm_list_view"
         android:layout_width="fill_parent"

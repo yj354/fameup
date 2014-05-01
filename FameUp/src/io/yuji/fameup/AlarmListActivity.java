@@ -1,5 +1,8 @@
 package io.yuji.fameup;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+
 import android.app.Activity;
 import android.app.AlertDialog.Builder;
 import android.content.DialogInterface;
@@ -8,11 +11,15 @@ import android.content.Intent;
 import android.media.RingtoneManager;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.AdapterView.OnItemLongClickListener;
 import android.widget.ArrayAdapter;
+import android.widget.TextView;
+import android.widget.Toast;
+//import android.widget.DigitalClock;
 import android.widget.ListView;
 
 import io.yuji.fameup.adapter.AlarmListAdapter;
@@ -30,6 +37,24 @@ public class AlarmListActivity extends Activity {
 		super.onCreate(savedInstanceState);
 
 		setContentView(R.layout.alarm_list);
+
+		//Current time and date display
+//		DigitalClock dc = (DigitalClock) findViewById(R.id.digital_clock);
+		Calendar c = Calendar.getInstance();
+        System.out.println("Current time => "+c.getTime());
+
+        SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        String formattedDate = df.format(c.getTime());
+        // formattedDate have current date/time
+        Toast.makeText(this, formattedDate, Toast.LENGTH_SHORT).show();
+
+
+      // Now we display formattedDate value in TextView
+        TextView txtView = new TextView(this);
+        txtView.setText("Current Date and Time : "+formattedDate);
+        txtView.setGravity(Gravity.CENTER);
+        txtView.setTextSize(20);
+        setContentView(txtView);
 
 		findViewById(R.id.addAlarmButton).setOnClickListener(
 				new View.OnClickListener() {
