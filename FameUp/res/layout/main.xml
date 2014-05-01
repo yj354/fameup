@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:gravity="center_horizontal"
+    android:background="@color/bg">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="220dp"
+            android:layout_height="141dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="85dp"
+            android:src="@drawable/logo" />
+
+        <ImageButton
+            android:id="@+id/fbLoginButton"
+            android:layout_width="202dp"
+            android:layout_height="202dp"
+            android:layout_alignTop="@+id/imageView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="104dp"
+            android:background="@color/transparent"
+            android:src="@drawable/login" />
+
+</RelativeLayout>

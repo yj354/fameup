@@ -8,25 +8,23 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@color/bg"
     tools:context=".MainActivity" >
-            <ImageView
+
+        <ImageView
             android:id="@+id/imageView1"
             android:layout_width="220dp"
             android:layout_height="141dp"
-            android:layout_above="@+id/imageButton1"
+            android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="32dp"
+            android:layout_marginTop="102dp"
             android:src="@drawable/logo" />
 
         <ImageButton
             android:id="@+id/fbLoginButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/imageView1"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="118dp"
             android:background="@color/transparent"
             android:src="@drawable/login" />
-
-
 
 </RelativeLayout>
