@@ -15,5 +15,7 @@
 	<string name="delete">Delete</string>
 	<string name="addAlarm">Add Alarm</string>
 	<string name="createAlarm">Create Your Snoozy</string>
+    <color name="bg">#1d1d1d</color>
+    <color name="transparent">#00000000</color>
 
 </resources>
