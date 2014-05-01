@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="30dp"/> 
+        <!-- android:src="@drawable/logo" -->
+
+    <DigitalClock
+        android:id="@+id/digitalClock1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DigitalClock"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/snooze_5sec"
+        style="@style/button"
+        android:layout_width="230dp"
+        android:text="Snooze for 5 SECONDS"
+        android:onClick="onSnoozeButtonPress"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:id="@+id/snooze_5min"
+        style="@style/button"
+        android:layout_width="230dp"
+        android:text="Snooze for 5 MINUTES"
+        android:onClick="onSnoozeButtonPress"
+        android:layout_marginBottom="10dp"/>
+    
+    <Button
+        android:id="@+id/snooze_15min"
+        style="@style/button"
+        android:layout_width="230dp"
+        android:text="Snooze for 15 MINUTES"
+        android:onClick="onSnoozeButtonPress"
+        android:layout_marginBottom="10dp"/>
+    
+    <Button
+        android:id="@+id/dismiss"
+        style="@style/button"
+        android:text="DISMISS"
+        android:onClick="onDismissButtonPress"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

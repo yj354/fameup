@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FameUp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    
+    <string name="view_alarms">View Alarms</string>
+	<string name="fbLogin">Login to Facebook</string>
+	<string name="posting">Posting...</string>
+	<string name="alarm_name">Give your nuisance a name:</string>
+	<string name="choose_ringtone">Pick Blaring Noise</string>
+	<string name="done">DONE</string>
+	<string name="delete">Delete</string>
+	<string name="addAlarm">Add Alarm</string>
+	<string name="createAlarm">Create Your Snoozy</string>
+
+</resources>
