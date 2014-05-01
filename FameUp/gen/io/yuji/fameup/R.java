@@ -7,6 +7,8 @@
 
 package io.yuji.fameup;
 
+import android.view.View;
+
 public final class R {
     public static final class attr {
     }
@@ -26,9 +28,12 @@ public final class R {
     public static final class id {
         public static final int action_settings=0x7f080001;
         public static final int fbLoginButton=0x7f080000;
+		public static final int addAlarmButton = 0;
+		public static final int digital_clock = 0;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
+		public static final View alarm_list = null;
     }
     public static final class menu {
         public static final int main=0x7f070000;
