@@ -1,10 +1,12 @@
 package io.yuji.fameup;
 
 import android.app.Activity;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.TimePicker;
 
 import io.yuji.fameup.util.AlarmUtil;
@@ -18,6 +20,13 @@ public class AlarmEditorActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.alarm_editor);
+        
+        //custom font
+        Typeface tf = Typeface.createFromAsset(getAssets(),
+                "fonts/Futura.otf");
+        TextView tv = (TextView) findViewById(R.id.name);
+        tv.setTypeface(tf);
+        //
         
         mName = (EditText) findViewById(R.id.alarm_name);
 //        mBtnDate = (Button) findViewById(R.id.date_button);

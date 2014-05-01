@@ -9,7 +9,7 @@
     <string name="view_alarms">View Alarms</string>
 	<string name="fbLogin">Login to Facebook</string>
 	<string name="posting">Posting...</string>
-	<string name="alarm_name">Give your nuisance a name:</string>
+	<string name="alarm_name">Name your alarm</string>
 	<string name="choose_ringtone">Pick Blaring Noise</string>
 	<string name="done">DONE</string>
 	<string name="delete">Delete</string>
@@ -17,5 +17,6 @@
 	<string name="createAlarm">Create Your Snoozy</string>
     <color name="bg">#1d1d1d</color>
     <color name="transparent">#00000000</color>
+    <color name="orange">#bf4b27</color>
 
 </resources>
