@@ -8,11 +8,10 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@color/bg"
     tools:context=".MainActivity" >
-            <ImageView
-            android:id="@+id/imageView1"
+      <ImageView
+            android:id="@+id/logoImage"
             android:layout_width="220dp"
-            android:layout_height="141dp"
-            android:layout_above="@+id/imageButton1"
+            android:layout_height="141dp" 
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="32dp"
             android:src="@drawable/logo" />
