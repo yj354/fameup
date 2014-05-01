@@ -14,8 +14,8 @@ import android.util.Log;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
-import com.xtremelabs.socialalarm.AlarmReceiver;
-import com.xtremelabs.socialalarm.model.Alarm;
+import io.yuji.fameup.AlarmReceiver;
+import io.yuji.fameup.model.Alarm;
 
 public class AlarmUtil {
 

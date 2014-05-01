@@ -10,7 +10,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.provider.BaseColumns;
 
-import com.xtremelabs.socialalarm.model.Alarm;
+import io.yuji.fameup.model.Alarm;
 
 public class DatabaseHelper extends SQLiteOpenHelper
 {
